@@ -19,5 +19,6 @@ public static void main(String[] args) {
 			System.out.println(e+" is even");
 		}else {System.out.println(e+" is odd");}
 	}
+	for (int f = 0; f<78; f++) {}
 }
 }
