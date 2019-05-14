@@ -32,17 +32,18 @@ Ultron.setSpeed(100);
 		//6. Make it so your shapes do not overlap
 		Ultron.penDown();
 		Ultron.turn(72);
-		Ultron.move(100);
+		Ultron.move(50);
 		Ultron.turn(72);
-		Ultron.move(100);
+		Ultron.move(50);
 		Ultron.turn(72);
-		Ultron.move(100);
+		Ultron.move(50);
 		Ultron.turn(72);
-		Ultron.move(100);
+		Ultron.move(50);
 		Ultron.turn(72);
-		Ultron.move(100);
-		Ultron.move(a);
-		a = a+72;
+		Ultron.move(50);
+		Ultron.penUp();
+		Ultron.turn(72);
+		Ultron.move(200);
 		}
 		//7. Challenge: add more colors to the Option Dialog.
 	}
