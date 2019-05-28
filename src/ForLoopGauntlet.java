@@ -1,3 +1,4 @@
+import javax.swing.JOptionPane;
 
 public class ForLoopGauntlet {
 	public static void main(String[] args) {
@@ -39,11 +40,16 @@ public class ForLoopGauntlet {
 		}
 		for (int k = 0; k < 10; k++) {
 			for (int l = 1; l < 11; l++) {
-				System.out.print(k * 10 + l +" ");
+				System.out.print(k * 10 + l + " ");
 
 			}
 			System.out.println();
-			}
+		}
+		String m = "*";
+		for (int n = 0; n < 6; n++) {
+			System.out.println("" + m);
+			m = (m + "*");
+		}
 
 	}
 }
